@@ -1,18 +1,20 @@
 ## MT-ScoreHub 
 MT-ScoreHub is a comprehensive machine translation evaluation tool that supports multiple translation quality assessment metrics, including BLEU, SacreBLEU, chrF, TER, METEOR, BERTScore, BLEURT, and COMET.
 
-### Features
+## Features
 1. Supports multiple translation quality evaluation metrics.
 2. Evaluates translations from an Excel (.xlsx) file.
 3. Automatically downloads required models for BLEURT and COMET.
 4. Outputs results to an Excel file for easy analysis.
 
-### Installation and Usage
+## Installation and Usage
 git clone https://github.com/your-username/MT-ScoreHub.git
+
 pip install -r requirements.txt --quiet
+
 python evaluation.py
 
-### Output
+## Output
 The script generates an Excel file with the following evaluation metrics:
 1. BLEU (NLTK-based score with smoothing)
 2. SacreBLEU (Official BLEU score calculation)
