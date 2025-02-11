@@ -1,0 +1,11 @@
+bert-score
+nltk
+sacrebleu
+transformers
+huggingface_hub
+torch
+torchaudio
+torchvision 
+plotly
+unbabel-comet 
+scikit-learn
