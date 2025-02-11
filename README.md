@@ -14,6 +14,8 @@ pip install -r requirements.txt --quiet
 
 python evaluation.py
 
+※put your hugging face token in evaluation.py file
+
 ## Output
 The script generates an Excel file with the following evaluation metrics:
 1. BLEU (NLTK-based score with smoothing)
